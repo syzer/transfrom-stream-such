@@ -1,8 +1,7 @@
 # WAT
 
-Unigng node 5 streams?
+Using node 5 streams?
 Tired of calling:
-
 
 ```js
 new stream.Transform({
@@ -13,6 +12,13 @@ new stream.Transform({
 })
 ```
 
-Here's a tip for you:
+#### Here's a tip for you
+above is equivalent to:
 
+```js
+let through = require('transfrom-stream-such');
+through(function (chunk, encoding, callback) {
+    callback(null, {chunk});
+})
+```
 
