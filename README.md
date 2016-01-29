@@ -13,6 +13,6 @@ new stream.Transform({
 })
 ```
 
-Heres a tip for you:
+Here's a tip for you:
 
-let
+
