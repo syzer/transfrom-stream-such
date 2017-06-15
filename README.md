@@ -1,5 +1,7 @@
 # WAT
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syzer/transfrom-stream-such.svg)](https://greenkeeper.io/)
+
 Using node 5 streams?
 Tired of calling:
 
